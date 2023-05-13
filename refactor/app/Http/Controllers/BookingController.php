@@ -27,6 +27,7 @@ class BookingController extends Controller
     public function __construct(BookingRepository $bookingRepository)
     {
         $this->repository = $bookingRepository;
+        //inserting a test comment
     }
 
     /**
